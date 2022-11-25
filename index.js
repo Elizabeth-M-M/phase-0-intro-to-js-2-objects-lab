@@ -31,8 +31,9 @@ function destructivelyDeleteFromEmployeeByKey(obj, key) {
 }
 
 
-console.log(employee);
+
 console.log(updateEmployeeWithKeyAndValue(employee, "name", "Sheila"));
 console.log(destructivelyUpdateEmployeeWithKeyAndValue(employee, "name", "Muella"));
 console.log(deleteFromEmployeeByKey(employee, "streetAddress"));
 console.log(destructivelyDeleteFromEmployeeByKey(employee, "streetAddress"));
+console.log(employee);
